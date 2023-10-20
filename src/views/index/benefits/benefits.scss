@@ -1,0 +1,30 @@
+.notice {
+  width: 85%;
+  min-height: 300px;
+  padding: 40px 60px;
+  margin: 20px auto;
+  color: #fff;
+  background-image: url("~@/assets/img/notice-bg.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  @media screen and (max-width: 768px) {
+    width: 85%;
+    padding: 40px 20px;
+    margin: 10px auto;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  strong {
+    color: #fef29f;
+    margin: 0 5px;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0 0 1em 0;
+  }
+}
